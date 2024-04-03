@@ -2,12 +2,20 @@
     margin: 0 0;
     padding: 0 0;
     box-sizing: border-box;
+    overflow-x: scroll;
 }
 
 .keyboard {
+    width: 160vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.octave {
     width: 80vw;
     height: 50vw;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     margin: auto auto;
     display: grid;
     grid-template-columns: 1fr;
